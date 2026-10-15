@@ -17,8 +17,8 @@ import java.time.LocalDate;
 
 @RestController
 public class HelloController {
-    @GetMapping("/hi")
-    public String hi(){return"hellow from dinel";}
+    @GetMapping("/goodBye")
+    public String goodBye(){return"good bye from Spring Boot";}
     @GetMapping("/hello")
     public String hello(){
         return "Hello from Spring Boots!";
